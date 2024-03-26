@@ -90,8 +90,7 @@ const Navbar = () => {
               <Link to='/'>
                   <img
                     src={digiLogo}
-                    width='87'
-                    height='35'
+                    className='w-12 h-12'
                     alt='/'
                   />
               </Link>

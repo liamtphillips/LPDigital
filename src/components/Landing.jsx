@@ -15,7 +15,7 @@ const Landing = () => {
             transition={{ duration: 2 }}
         >
             <div className=''>
-              
+                <img src={bgline2} className='absolute top-0 opacity-40 lg:opacity-10 z-[-1] max-w-screen' />
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col text-center mt-36'>
