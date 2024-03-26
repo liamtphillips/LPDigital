@@ -4,7 +4,7 @@ import { digitalData } from '../data.jsx';
 
 const Choice = () => {
     return (
-        <div id="choice" className='min-h-screen flex flex-col bg-noise items-center justify-center px-10 lg:px-0 md:mt-0 mt-12'>
+        <div id="choice" className='min-h-screen flex flex-col bg-noise items-center justify-center px-10 lg:px-0 '>
             <h1 className='text-2xl lg:text-4xl text-white font-bold mb-24 text-center'>Why choose LP Digital?</h1>
             <div className='grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center justify-center'>
                 {digitalData.map((data, index) => (
