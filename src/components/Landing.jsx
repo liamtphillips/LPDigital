@@ -14,12 +14,12 @@ const Landing = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 2 }}
         >
-            <div>
+            <div className='overflow-x-hidden'>
                 <img src={bgline2} className='absolute top-0 opacity-40 lg:opacity-20 z-[-1]' />
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col text-center mt-36'>
-                    <h1 className='text-white font-bold text-2xl lg:text-5xl '>We will guide you<br></br>through the digital maze</h1>
+                    <h1 className='text-white font-bold text-2xl lg:text-5xl'>We will guide you<br></br>through the digital maze</h1>
                 </div>
                 <p className='lg:max-w-2xl md:max-w-md mt-6 text-center text-gray-400 text-sm lg:text-lg font-semibold'>We are trusted by industry leaders to simplify the intricacies of the crypto world, offering comprehensive research and analysis that's both actionable and insightful for investors and innovators alike.</p>
                 <div className='mt-8 '>
