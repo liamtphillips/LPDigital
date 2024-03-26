@@ -15,6 +15,7 @@ import reviewFace9 from './assets/ReviewFace9.jpg';
 import reviewFace10 from './assets/ReviewFace10.jpg';
 import reviewFace11 from './assets/ReviewFace11.jpg';
 import reviewFace12 from './assets/ReviewFace12.jpg';
+import { FaPhone, FaNewspaper, FaUser, } from 'react-icons/fa';
 
 export const planData = [
 
@@ -175,3 +176,30 @@ export const socialMediaData = [
       description: 'LP Digital embraces the future of finance, offering a seamless journey for both new and experienced investors.',
     },
   ];
+
+  export const contactData = [
+    {
+        icon: <FaPhone />,
+        title: 'Technical Support',
+        email: 'support@lpdigital.com',
+        phone: '+123456789'
+      },
+      {
+        icon: <FaUser />,
+        title: 'Member Services',
+        email: 'members@lpdigital.com',
+        phone: '+987654321'
+      },
+      {
+        icon: <FaNewspaper />,
+        title: 'Press',
+        email: 'press@lpdigital.com',
+        phone: '+1122334455'
+      },
+      {
+        icon: <FaPhone />,
+        title: 'General Inquiry',
+        email: 'info@lpdigital.com',
+        phone: '+9988776655'
+      }
+    ]

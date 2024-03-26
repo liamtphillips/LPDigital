@@ -2,6 +2,8 @@ import React from 'react'
 import { FaPhone, FaNewspaper, FaUser, } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import logo from '../assets/digilogo3.png';
+import ContactCard from '../components/ContactCard';
+import { contactData } from '../data.jsx';
 
 const Contact = () => {
   return (
@@ -64,52 +66,25 @@ const Contact = () => {
             </form>
             <div className='px-3 w-full xl:w-1/2 xl:ml-14'>
               <h1 className='text-white text-2xl font-semibold mb-4 mt-10 xl:mt-0'>Contact us</h1>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
-                <div className="flex gap-2 items-start py-2">
-                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span className='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
-                  </div>
-                  <div className='flex flex-col ml-4'>
-                    <h1 className='whitespace-nowrap text-white mb-2'>Technical Support</h1>
-                    <p className='text-gray-500'>support@lpdigital.com</p>
-                    <p className='text-gray-500'>+123456789</p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-start py-2">
-                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span className='text-blue-500 text-xl lg:text-4xl'><FaUser /></span>
-                  </div>
-                  <div className='flex flex-col ml-4'>
-                    <h1 className='whitespace-nowrap text-white mb-2'>Member Services</h1>
-                    <p className='text-gray-500'>members@lpdigital.com</p>
-                    <p className='text-gray-500'>+987654321</p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-start py-2">
-                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span className='text-blue-500 text-xl lg:text-4xl'><FaNewspaper /></span>
-                  </div>
-                  <div className='flex flex-col ml-4'>
-                    <h1 className='whitespace-nowrap text-white mb-2'>Press</h1>
-                    <p className='text-gray-500'>press@lpdigital.com</p>
-                    <p className='text-gray-500'>+1122334455</p>
-                  </div>
-                </div>
-                <div className="flex gap-2 items-start py-2">
-                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span className='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
-                  </div>
-                  <div className='flex flex-col ml-4'>
-                    <h1 className='whitespace-nowrap text-white mb-2'>General Inquiry</h1>
-                    <p className='text-gray-500'>info@lpdigital.com</p>
-                    <p className='text-gray-500'>+9988776655</p>
-                  </div>
+              <div className="flex flex-col lg:grid-cols-2 gap-4 mt-8">
+                <div className="flex flex-col lg:grid lg:grid-cols-2 gap-4 mt-8">
+                  {contactData.map((contact, index) => (
+                    <ContactCard
+                      key={index}
+                      icon={contact.icon}
+                      title={contact.title}
+                      email={contact.email}
+                      phone={contact.phone}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
     </motion.section>
   )
 }
