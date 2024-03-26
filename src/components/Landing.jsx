@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const Landing = () => {
     return (
-        <motion.section className=' bg-noise bg-cover lg:min-h-screen px-10 lg:px-0 '
+        <motion.section className=' bg-noise bg-cover lg:min-h-screen  lg:px-0 '
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -17,7 +17,7 @@ const Landing = () => {
             <div className=''>
                 <img src={bgline2} className='absolute top-0 opacity-40 lg:opacity-10 z-[-1] max-w-screen mx-auto' />
             </div>
-            <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-col justify-center items-center px-10'>
                 <div className='flex flex-col text-center mt-36'>
                     <h1 className='text-white font-bold text-2xl lg:text-5xl'>We will guide you<br></br>through the digital maze</h1>
                 </div>
