@@ -14,8 +14,8 @@ const Landing = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 2 }}
         >
-            <div className='overflow-x-hidden'>
-                <img src={bgline2} className='absolute top-0 opacity-40 lg:opacity-20 z-[-1]' />
+            <div className=''>
+              
             </div>
             <div className='flex flex-col justify-center items-center'>
                 <div className='flex flex-col text-center mt-36'>
