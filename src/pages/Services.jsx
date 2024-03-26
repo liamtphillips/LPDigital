@@ -12,9 +12,9 @@ const Services = () => {
     exit={{ opacity: 0 }}
     transition={{ duration: 2 }}
   >
-      <div className='text-center text-white mx-auto mt-32'>
+      <div className='text-center text-white mx-auto mt-32 flex flex-col items-center'>
       <h1 className='py-2 text-2xl md:text-5xl font-bold max-w-2xl'>Consulting Services</h1>
-        <p className='text-md font-semibold lg:text-xl text-gray-400 mt-5 mb-10 px-2 '
+        <p className='text-md font-semibold lg:text-xl text-gray-400 mt-5 mb-10 px-2 max-w-2xl'
         >Partnering with LP Digital means we become an integral part of your team, dedicated to assisting you in achieving your overarching objectives and mission.</p>
       </div>
       <div className='mt-10'>
