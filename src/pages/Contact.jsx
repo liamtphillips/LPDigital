@@ -62,47 +62,47 @@ const Contact = () => {
                 </button>
               </div>
             </form>
-            <div class='px-3 w-full xl:w-1/2 xl:ml-14'>
-              <h1 class='text-white text-2xl font-semibold mb-4 mt-10 xl:mt-0'>Contact us</h1>
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
-                <div class="flex gap-2 items-start py-2">
-                  <div class='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span class='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
+            <div className='px-3 w-full xl:w-1/2 xl:ml-14'>
+              <h1 className='text-white text-2xl font-semibold mb-4 mt-10 xl:mt-0'>Contact us</h1>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+                <div className="flex gap-2 items-start py-2">
+                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
+                    <span className='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
                   </div>
-                  <div class='flex flex-col ml-4'>
-                    <h1 class='whitespace-nowrap text-white mb-2'>Technical Support</h1>
-                    <p class='text-gray-500'>support@lpdigital.com</p>
-                    <p class='text-gray-500'>+123456789</p>
-                  </div>
-                </div>
-                <div class="flex gap-2 items-start py-2">
-                  <div class='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span class='text-blue-500 text-xl lg:text-4xl'><FaUser /></span>
-                  </div>
-                  <div class='flex flex-col ml-4'>
-                    <h1 class='whitespace-nowrap text-white mb-2'>Member Services</h1>
-                    <p class='text-gray-500'>members@lpdigital.com</p>
-                    <p class='text-gray-500'>+987654321</p>
+                  <div className='flex flex-col ml-4'>
+                    <h1 className='whitespace-nowrap text-white mb-2'>Technical Support</h1>
+                    <p className='text-gray-500'>support@lpdigital.com</p>
+                    <p className='text-gray-500'>+123456789</p>
                   </div>
                 </div>
-                <div class="flex gap-2 items-start py-2">
-                  <div class='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span class='text-blue-500 text-xl lg:text-4xl'><FaNewspaper /></span>
+                <div className="flex gap-2 items-start py-2">
+                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
+                    <span className='text-blue-500 text-xl lg:text-4xl'><FaUser /></span>
                   </div>
-                  <div class='flex flex-col ml-4'>
-                    <h1 class='whitespace-nowrap text-white mb-2'>Press</h1>
-                    <p class='text-gray-500'>press@lpdigital.com</p>
-                    <p class='text-gray-500'>+1122334455</p>
+                  <div className='flex flex-col ml-4'>
+                    <h1 className='whitespace-nowrap text-white mb-2'>Member Services</h1>
+                    <p className='text-gray-500'>members@lpdigital.com</p>
+                    <p className='text-gray-500'>+987654321</p>
                   </div>
                 </div>
-                <div class="flex gap-2 items-start py-2">
-                  <div class='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
-                    <span class='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
+                <div className="flex gap-2 items-start py-2">
+                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
+                    <span className='text-blue-500 text-xl lg:text-4xl'><FaNewspaper /></span>
                   </div>
-                  <div class='flex flex-col ml-4'>
-                    <h1 class='whitespace-nowrap text-white mb-2'>General Inquiry</h1>
-                    <p class='text-gray-500'>info@lpdigital.com</p>
-                    <p class='text-gray-500'>+9988776655</p>
+                  <div className='flex flex-col ml-4'>
+                    <h1 className='whitespace-nowrap text-white mb-2'>Press</h1>
+                    <p className='text-gray-500'>press@lpdigital.com</p>
+                    <p className='text-gray-500'>+1122334455</p>
+                  </div>
+                </div>
+                <div className="flex gap-2 items-start py-2">
+                  <div className='bg-blue-500/30 rounded-md border border-gray-600/50 p-4'>
+                    <span className='text-blue-500 text-xl lg:text-4xl'><FaPhone /></span>
+                  </div>
+                  <div className='flex flex-col ml-4'>
+                    <h1 className='whitespace-nowrap text-white mb-2'>General Inquiry</h1>
+                    <p className='text-gray-500'>info@lpdigital.com</p>
+                    <p className='text-gray-500'>+9988776655</p>
                   </div>
                 </div>
               </div>

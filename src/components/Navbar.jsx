@@ -41,7 +41,7 @@ const Navbar = () => {
               alt='/'
               className='cursor-pointer w-10 h-10 hidden md:block'
             />
-            <p className='font-custom1 text-white ml-2 mt-1'>LP DIGITAL</p>
+            <p className='font-custom1 text-white md:ml-2 mt-1'>LP DIGITAL</p>
           </Link>
         </div>
 

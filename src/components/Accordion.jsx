@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Accordion = ({ title, text, accordionText, image }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,7 @@ const Accordion = ({ title, text, accordionText, image }) => {
                     <p className='font-semibold text-gray-400 text-md lg:text-xl'>{text}</p>
                 </div>
             </div>
-            <div className='flex justify-between items-center cursor-pointer' onClick={toggleAccordion}>
+            <div className='flex justify-between items-center cursor-pointer mt-4 lg:mt-0' onClick={toggleAccordion}>
                 <h1 className='text-2xl text-blue-500 font-bold '>The Process</h1>
                 <h1 className={`text-white text-4xl transform transition-transform duration-300 ${isOpen ? 'rotate-45' : 'rotate-0'}`}>+</h1>
             </div>
@@ -26,7 +27,9 @@ const Accordion = ({ title, text, accordionText, image }) => {
             )}
             <div className='border-b border-gray-400/20 mt-10'></div>
             <div className='flex justify-center items-center mt-8'>
+                <Link to="/contact">
                 <button className='bg-white hover:bg-gray-400 transition-all duration-500 text-xl font-semibold rounded-lg py-2 px-4'>Enquire about this service</button>
+                </Link>
             </div>
         </div>
     );

@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 const Landing = () => {
     return (
-        <motion.section className=' bg-noise bg-cover lg:min-h-screen  lg:px-0 '
+        <motion.section className=' bg-noise bg-cover lg:min-h-screen lg:px-0 '
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
