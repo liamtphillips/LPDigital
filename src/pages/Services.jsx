@@ -14,7 +14,7 @@ const Services = () => {
   >
       <div className='text-center text-white mx-auto mt-32'>
       <h1 className='py-2 text-2xl md:text-5xl font-bold max-w-2xl'>Consulting Services</h1>
-        <p className='text-md font-semibold lg:text-xl text-gray-400 max-w- mt-5 mb-10 px-2 '
+        <p className='text-md font-semibold lg:text-xl text-gray-400 mt-5 mb-10 px-2 '
         >Partnering with LP Digital means we become an integral part of your team, dedicated to assisting you in achieving your overarching objectives and mission.</p>
       </div>
       <div className='mt-10'>

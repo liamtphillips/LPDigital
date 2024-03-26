@@ -14,8 +14,8 @@ const Contact = () => {
       <div className=' container mx-auto lg:px-20 py-10'>
         <div className="px-10">
           <div className='text-center flex flex-col items-center'>
-            <h1 className='text-5xl text-white font-bold mt-28'>Get in touch</h1>
-            <p className='text-lg font-semibold text-gray-400 mb-10 mt-5 max-w-2xl'>If you're interested in what we have to offer, message us for more information. Whether you're a solo investor or a business looking to increase your profits, we can help you.</p>
+            <h1 className='md:text-5xl text-2xl text-white font-bold mt-28'>Get in touch</h1>
+            <p className='md:text-lg text-md font-semibold text-gray-400 mb-10 mt-5 max-w-2xl'>If you're interested in what we have to offer, message us for more information. Whether you're a solo investor or a business looking to increase your profits, we can help you.</p>
           </div>
           <div className='flex items-center justify-center'>
             <img src={logo} className='absolute pt-52 mt-80 z-[-1] w-80 h-auto' />
