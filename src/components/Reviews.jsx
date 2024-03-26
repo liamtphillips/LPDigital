@@ -11,7 +11,7 @@ const Reviews = () => {
             <h1 className="text-4xl font-bold text-white">
               Voices from the Industry
             </h1>
-            <p className="text-xl text-gray-300 md:text-center max-w-xl">
+            <p className="md:text-xl text-md text-gray-300 md:text-center max-w-xl">
               From seasoned traders to industry pioneers,
               find out why Delphi is their go-to for crypto research & insights.
             </p>
