@@ -4,7 +4,7 @@ import { socialMediaData, socialMediaData2, socialMediaData3 } from "../data.jsx
 
 const Reviews = () => {
   return (
-    <section id="testimonies" className="py-20 px-8 lg:px-0 bg-noise">
+    <section className="py-20 px-8 lg:px-0 bg-noise">
       <div className="container lg:px-16 px-0 mx-auto">
         <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
           <div className="mb-12 space-y-5 md:mb-16 md:text-center flex items-center justify-center flex-col">

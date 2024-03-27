@@ -24,7 +24,7 @@ const InfiniteScroll = () => {
     <main className="relative flex flex-col justify-center bg-noise overflow-hidden px-8 lg:px-0 lg:pb-20 pb-0">
       <div className="w-full max-w-7xl mx-auto px-4 md:px-6 py-24">
         <div className="text-center">
-            <h1 className='text-xl font-bold py-10 text-white/60'>TRUSTED BY</h1>
+          <h1 className='text-xl font-bold py-10 text-white/60'>TRUSTED BY</h1>
           <div
             x-data="{}"
             x-init="$nextTick(() => {
@@ -42,24 +42,24 @@ const InfiniteScroll = () => {
                 <img src={disney} alt="Disney Logo" />
               </li>
               <li>
-            <img src={airbnb} alt="Airbnb" />
-        </li>
-        <li>
-            <img src={apple} alt="Apple" />
-        </li>
-        <li>
-            <img src={spark} alt="Spark" />
-        </li>
-        <li>
-            <img src={samsung} alt="Samsung" />
-        </li>
-        <li>
-            <img src={quora} alt="Quora" />
-        </li>
-        <li>
-            <img src={sass} alt="Sass" />
-        </li>
-    </ul>    
+                <img src={airbnb} alt="Airbnb" />
+              </li>
+              <li>
+                <img src={apple} alt="Apple" />
+              </li>
+              <li>
+                <img src={spark} alt="Spark" />
+              </li>
+              <li>
+                <img src={samsung} alt="Samsung" />
+              </li>
+              <li>
+                <img src={quora} alt="Quora" />
+              </li>
+              <li>
+                <img src={sass} alt="Sass" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>

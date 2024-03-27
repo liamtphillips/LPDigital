@@ -9,20 +9,13 @@ const Footer = () => {
         <div className="mx-6 py-10 text-center md:text-left lg:px-4">
           <img src={logo} alt="logo" className='w-12 mb-6' />
           <div className="flex flex-col md:flex-row justify-between text-left ">
-
             <div>
-
               <p className="mb-4 max-w-md text-gray-400 text-xs">
-                <a href="#!">
-                  Copyright © 2024 LP Digital Solutions Ltd. All rights reserved.
-                  LP Digital Solutions Ltd is registered in the UK under company number 12345678.
-                  Registered address: LP Digital Solutions Ltd, Mersey House, 10-14 Water Street, Liverpool, L1 8JW.
-                
-
-                </a>
+                Copyright © 2024 LP Digital Solutions Ltd. All rights reserved.
+                LP Digital Solutions Ltd is registered in the UK under company number 12345678.
+                Registered address: LP Digital Solutions Ltd, Mersey House, 10-14 Water Street, Liverpool, L1 8JW.
               </p>
             </div>
-
             <div className=''>
               <p className="mb-4 flex text-gray-400 md:justify-start">
                 01 234 567 89

@@ -28,7 +28,7 @@ const Accordion = ({ title, text, accordionText, image }) => {
             <div className='border-b border-gray-400/20 mt-10'></div>
             <div className='flex justify-center items-center mt-8'>
                 <Link to="/contact">
-                <button className='bg-white hover:bg-gray-400 transition-all duration-500 text-xl font-semibold rounded-lg py-2 px-4'>Enquire about this service</button>
+                    <button className='bg-white hover:bg-gray-400 transition-all duration-500 text-xl font-semibold rounded-lg py-2 px-4'>Enquire about this service</button>
                 </Link>
             </div>
         </div>
